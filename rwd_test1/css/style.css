@@ -126,6 +126,9 @@ h2, h3{
   font-size: 26px;
   padding: 30px;
 }
+h2{
+	padding-top: 70px;
+}
 div.pic_text p{
   font-size: 18px;
   line-height: 1.8;
@@ -238,6 +241,10 @@ div.pic_text p{
   }
   .pic img{
     float: none;
+	}
+	.pic_text h2{
+		padding-top: 0px;
+	}
 }
 @media screen and (max-width:600px){
   div.menu ul{
